@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from GUI import ir_shrtst, opt_shrtst, c5, createoutput, scatter, fullplot
+from ./GUI import ir_shrtst, opt_shrtst, c5, createoutput, scatter, fullplot
 import functions as f
 
 # -----------
