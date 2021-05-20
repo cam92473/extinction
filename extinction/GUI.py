@@ -1,5 +1,5 @@
 import tkinter as tk
-import GUIfunc.py as guf
+import extinction.GUIfunc as guf
 from tkinter import ttk
 
 

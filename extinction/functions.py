@@ -1,5 +1,5 @@
 import numpy as np
-from GUI.py import c1,c2,c4,c5,x0,c3,gamma,O3,O2,O1,k_IR,R_V,ir_shrtst,opt_shrtst,uvN_shrtst
+from .GUI import c1,c2,c4,c5,x0,c3,gamma,O3,O2,O1,k_IR,R_V,ir_shrtst,opt_shrtst,uvN_shrtst
 from scipy.interpolate import CubicSpline
 
 # -------------
