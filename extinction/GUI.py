@@ -1,5 +1,5 @@
 import tkinter as tk
-import ./GUIfunc as guf
+import GUIfunc.py as guf
 from tkinter import ttk
 
 
