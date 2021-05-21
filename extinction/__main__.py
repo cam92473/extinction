@@ -3,8 +3,8 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from .GUI import ir_shrtst, opt_shrtst, c5, createoutput, scatter, fullplot
-import extinction.functions as f
+from extinction.GUI.GUI import ir_shrtst, opt_shrtst, c5, createoutput, scatter, fullplot
+import extinction.model_calcs.functions as f
 
 # -----------
 # Read in data and convert to microns

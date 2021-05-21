@@ -91,7 +91,7 @@ def create_widgets(mwin,tk):
     toplabel = tk.Label(mwin,font=("Arial",12),text="Parameters").grid(row=1,column=4)
 
     ### Central Image
-    photo1 = get_image('./extinction_curve.PNG', 515, 310)
+    photo1 = get_image('extinction/images/extinction_curve.PNG', 515, 310)
     mwin.photo = photo1
     imglabel = tk.Label(mwin, image=photo1).grid(row=3,column=7, rowspan = 8,columnspan=10,sticky=tk.W)
 
