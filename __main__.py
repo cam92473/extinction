@@ -10,7 +10,7 @@ import extinction.model_calcs.functions as f
 # Read in data and convert to microns
 # ------------
 
-indata_nm = np.genfromtxt("../wavelengths.csv")
+indata_nm = np.genfromtxt("/wavelengths.csv")
 
 # -----------
 # Evaluate wavelengths based on what range (IR, Opt, UV>c5, UV>=c5) they lie in
@@ -38,7 +38,7 @@ grapharray_unsrt = np.column_stack((x_axis,y_axis))
 grapharray_xsrt = grapharray_unsrt[np.argsort(grapharray_unsrt[:, 0])]
 
 if createoutput == 1:
-    np.savetxt("../output.csv",y_axis)
+    np.savetxt("/output.csv",y_axis)
 
 if scatter == 1:
     plt.scatter(grapharray_xsrt[:,0],grapharray_xsrt[:,1])

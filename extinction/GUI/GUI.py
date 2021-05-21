@@ -5,7 +5,6 @@ from tkinter import ttk
 
 mwin = guf.Window()
 s = ttk.Style()
-print(s.theme_names())
 s.theme_use('winnative')
 
 grid_rc = [[50,40,40,40,40,40,40,40,40,40,40,40,40,40,40],[30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30]]
